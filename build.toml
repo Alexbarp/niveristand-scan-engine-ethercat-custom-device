@@ -60,6 +60,6 @@ dependency_target = 'linux32'
 
 [package]
 type = 'nipkg'
-name = 'scan-engine-ethercat-custom-device-{version}'
-release_version = '4.3.1'
-install_destination = 'documents\National Instruments\NI VeriStand {version}\Custom Devices'
+name = 'scan-engine-and-ethercat-custom-device-{veristand_version}'
+dev_xml_path = 'Custom Device Source\Custom Device Scan Engine.xml'
+install_destination = 'documents\National Instruments\NI VeriStand {veristand_version}'
